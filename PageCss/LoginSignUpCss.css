@@ -1,0 +1,49 @@
+*{
+    font-family: Raleway;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#62caed;
+}
+
+#outer-div{
+    margin: auto;
+    height:100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#inner-div{
+    margin: auto;
+    width: 70%;
+    background-color: rgb(169, 212, 254);
+    border-radius: 10px;
+    height:70vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#headingtxt{
+    font-size: 50px;
+    text-align: center;
+    font-family: Raleway;
+}
+
+
+#btn{
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
+  margin: 0 10px;
+  width: 200px;
+  padding: 10px 0;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+  color: rgb(104, 85, 224);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(104, 85, 224, 1);
+}

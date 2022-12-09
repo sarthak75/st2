@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#b1b54b;
+    font-family: Raleway;
+}
+
+#outer-div{
+    margin: auto;
+    height:100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#inner-div{
+    margin: auto;
+    width: 50%;
+    background-color: rgb(229, 163, 163);
+    border: 5px solid black;
+    border-radius: 10px;
+    height:50vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#headingtxt{
+    font-size: 50px;
+    text-align: center;
+    font-family: Raleway;
+}
+
+#profiletxt{
+    font-size: 20px;
+    text-align: center;
+    font-family: Raleway;
+}
+
+#spanbtn{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#btn{
+    padding: 10px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 250px;
+    font-size: 18px;
+    font-family: Raleway;
+    background-color: #37ab63;
+    border: 2px solid black;
+    border-radius:5px;
+    cursor: pointer;
+}
